@@ -78,14 +78,16 @@ h2 {
     color: #1F4529;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .top_img_class img {
-        width: 90px;
+        height: 100px;
+        width: 50px;
+
+    }
+    .section3 {
+        display: none;
     }
     .carouselStyle {
-        width: 50px;
-        margin: auto;
-        
-        
+        margin-bottom: 50px;
     }
 }
