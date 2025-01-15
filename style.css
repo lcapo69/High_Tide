@@ -84,8 +84,12 @@ h2 {
         width: 50px;
 
     }
+    .carouselStyle {
+        width: 250px;
+    }
+
     .section3 {
-        display: none;
+        padding-bottom: 46px;
     }
     .carouselStyle {
         margin-bottom: 50px;
