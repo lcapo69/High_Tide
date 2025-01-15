@@ -1,0 +1,91 @@
+html {
+    background-color: #E8ECD7;
+}
+
+
+#header {
+    background-color: #47663B;
+    font-family: "Original Surfer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: black;
+    font-size: 1rem;
+}
+
+#title {
+    color: #EED3B1;
+}
+
+.section2 {
+    background-color: #E8ECD7;
+}
+
+#address {
+    font-size: 1rem;
+    color: #E8ECD7
+    ;
+}
+
+.sec2Text {
+    color: #1F4529;
+}
+
+.sec2Text2 {
+    color: #47663B;
+}
+
+
+
+
+.section3 {
+    background-color: #E8ECD7;;
+}
+
+.carouselStyle {
+    width: 80rem;
+    margin: auto;
+    
+    
+}
+
+.carouselStyle img {
+    height: 400px;
+
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 3rem;
+    color: #1F4529;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section4 {
+    background-color: #E8ECD7;
+}
+
+#section4  a{
+    color: #1F4529;
+}
+
+#section4  p{
+    color: #1F4529;
+}
+
+@media (max-width: 600px) {
+    .top_img_class img {
+        width: 90px;
+    }
+    .carouselStyle {
+        width: 30rem;
+        margin: auto;
+        
+        
+    }
+}
