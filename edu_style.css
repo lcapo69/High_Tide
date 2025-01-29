@@ -1,0 +1,68 @@
+html {
+    background-color: #1F4529;
+}
+
+#section1 {
+    background-color: #EED3B1;
+    color: black;
+}
+
+#header {
+    background-color: #47663B;
+    font-family: "Original Surfer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: black;
+    font-size: 1rem;
+}
+
+#title {
+    color: #EED3B1;
+}
+
+#address {
+    font-size: 1rem;
+    color: #E8ECD7;
+}
+
+
+#section2 {
+    background-image: url(./img/wet_leaves.png);
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#section3 {
+    background-color: #EED3B1;
+}
+
+#section4 {
+    background-color: #47663B;
+}
+
+#section4 a {
+    color: yellow;
+}
+
+#section5 {
+    background-color: #EED3B1;
+}
+
+#section5 a {
+    color: #47663B
+}
+
+
+@media (max-width: 650px) {
+
+    #section1 img {
+        width: 300px;
+    }
+    
+}
+
