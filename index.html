@@ -12,6 +12,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
+  <div class="container1" id="container">
+    <button type="submit" class="btn" onclick="openPopup()"></button>
+    <div class="popup1" id="popup">
+        <img src="./img/21+only.png" alt="">
+        <h2>Are you over 21 years old?</h2>
+        <button type="submit" onclick="closePopup()" id="yesButton">Yes</button>
+        <button type="button" onclick="location.href = './not21.html';">No</button>
+
+    </div>
+
+</div>
     <section>
         <header class="d-flex flex-wrap justify-content-center py-1 mb-4 border-bottom" id="header">
             <a href="/" class="d-flex align-items-center my-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -33,7 +44,7 @@
           </header>
     </section>
 
-    <section class="section2">
+    <section class="section2 inv" id="section2">
         <div class="row flex-lg-row-reverse align-items-center g-4 py-3 mx-5">
             <div class="col-lg-6 top_img_class">
               <img src="./img/highlogo1.png" class="img-fluid mb-lg-4 me-lg-4 ms-lg-2 start_img_1" alt="Bootstrap Themes" width="200" height="250" loading="lazy">
@@ -52,7 +63,7 @@
           </div>
     </section>
 
-    <section class="section3">
+    <section id="section3" class="section3 inv">
 
         <h2>Check out our brands</h2>
 
@@ -88,7 +99,7 @@
           </div>
     </section>
 
-    <section id="section4">
+    <section id="section4" class="inv">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-0 border-top">
             <p class="col-md-4 mb-0 ps-5"> High Tide</p>
         

@@ -1,14 +1,20 @@
-function checkAge() {
-  let age = prompt("Please enter your age:");
+let popup = document.getElementById("popup");
+let container = document.getElementById("container")
+let yesButton = document.getElementById("yesButton");
+let section2 = document.getElementById("section2");
+let section3 = document.getElementById("section3");
+let section4 = document.getElementById("section4");
 
-  if (age >= 21) {
-    alert("Welcome!");
-  } else {
-    alert("You must be 21 or older to access this content.");
-  }
+function closePopup() {
+    popup.classList.add("inv");
+    container.classList.add("inv");
+
+    section2.classList.remove("inv");
+    section3.classList.remove("inv");
+    section4.classList.remove("inv");
+
 }
 
-checkAge(); 
 
 const myCarouselElement = document.querySelector('#myCarousel')
 
