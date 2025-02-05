@@ -1,5 +1,5 @@
 html {
-    background-color: #E8ECD7;
+    background-color: black;
 }
 
 
@@ -75,7 +75,7 @@ html {
 
 
 #header {
-    background-color: #47663B;
+    background-image: url(./img/Surfboard.png);
     font-family: "Original Surfer", serif;
     font-weight: 400;
     font-style: normal;
@@ -88,26 +88,36 @@ html {
 }
 
 #title {
-    color: #EED3B1;
+    color: #005874;
 }
 
 .section2 {
-    background-color: #E8ECD7;
+    background-color: #005874;
 }
+
+.section2 button{
+   color: #FFBE00;
+   text-decoration:none;
+}
+
+.section2 a{
+    color: #1C819E;
+    text-decoration:none;
+ }
+
 
 #address {
     font-size: 1rem;
-    color: #E8ECD7;
+    color: #FFBE00;
 }
 
 .sec2Text {
-    color: #1F4529;
+    color: #FFBE00;
 }
 
 .sec2Text2 {
-    color: #47663B;
+    color: #E6E6D4;
 }
-
 
 
 
@@ -128,26 +138,26 @@ h2 {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    color: #E8ECD7;
+    color: #E6E6D4;
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 #section4 {
-    background-color: #E8ECD7;
+    background-color: #005874;
 }
 
 #section4  a{
-    color: #1F4529;
+    color: #FFBE00;
 }
 
 #section4  p{
-    color: #1F4529;
+    color: #FFBE00;
 }
 
 .top_img_class {
-    background-color: #EED3B1;
+    background-color: #005874;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -172,7 +182,7 @@ h2 {
 }
 
 .section3 {
-    background-color: #1F4529;
+    background-color: #005874;
     padding-bottom: 80px;
 }
 
@@ -181,7 +191,7 @@ h2 {
         width: 550px;
         padding-top: 10px;
         padding-bottom: 10px;
-        height:270px;
+        height:280px;
 
         
 
